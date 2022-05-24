@@ -1,0 +1,31 @@
+.product{
+     margin-top:10px;
+     display:flex ;
+     align-items: center;
+     gap: 20px;
+     padding-bottom: 5px;
+ 
+     border-bottom: 1px solid gray;
+}
+.product img {
+    height: 250px ;
+}
+.product-name{
+    color:lightcoral ;
+    font-weight:500 ;
+}
+.btn-regular{
+    padding:5px 20px ;
+    margin-top:10px ;
+    background-color:black ;
+    color:white ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-regular:hover{
+    background-color:red ;
+    transition:0.5s ;
+}
+.icon{
+    color:gray ;
+}
